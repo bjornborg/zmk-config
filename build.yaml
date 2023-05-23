@@ -14,6 +14,8 @@
 ---
 include:
   - board: nrf52840dk_nrf52840
-    shield: ["redox_left","redox_right"]
+    shield: redox_left
+  - board: nrf52840dk_nrf52840
+    shield: redox_right
   - board: nrf52840dk_nrf52840
     shield: settings_reset
