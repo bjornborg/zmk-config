@@ -86,17 +86,17 @@
             // mouse support under development
             bindings = <
                 //┌────────┬────────┬────────┬────────┬────────┬────────┐                                           ┌────────┬────────┬────────┬────────┬────────┬────────┐
-                  &trans   &trans   &trans   &trans   &trans   &trans                                               &trans   &trans   &trans   &trans   &trans   &kp C_VOL_UP
+                   &trans   &trans   &trans   &trans   &trans   &trans                                               &trans   &trans   &trans   &trans   &trans   &kp C_VOL_UP
                 //├────────┼────────┼────────┼────────┼────────┼────────┼────────┐                         ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┤
-                  &none    &none    &none    &none    &none    &none    &trans                             &trans   &none    &none    &none &kp C_BRI_DN &kpC_BRI_UP &kp C_VOL_DN
+                   &none    &none    &none    &none    &none    &none    &trans                             &trans   &none    &none    &none &kp C_BRI_DN &kp C_BRI_UP &kp C_VOL_DN
                 // &none   &none   KC_MS_U   &none   KC_WH_U   &none   &trans   &trans   &none   &none   &none   KC_BRID   KC_BRIU   KC_KB_VOLUME_DOWN
                 //├────────┼────────┼────────┼────────┼────────┼────────┼────────┤                         ├────────┼────────┼────────┼────────┼────────┼────────┼────────┤
-                  &none    &none    &none    &none    &none    &none    &trans                             &trans   &kp LEFT &kp DOWN &kp UP   &kp RIGHT &none   &kp C_MUTE
+                   &none    &none    &none    &none    &none    &none    &trans                             &trans   &kp LEFT &kp DOWN &kp UP   &kp RIGHT &none   &kp C_MUTE
                 // &none    KC_MS_L  KC_MS_D  KC_MS_R  KC_WH_D  &none    &trans                             &trans   KC_LEFT  KC_DOWN  KC_UP    KC_RIGHT  &none   KC_KB_MUTE
                 //├────────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┐       ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┤
-                  &none    &none    &none    &none    &none    &none    &trans   &trans           &trans   &none    &none    &none    &none    &none    &none    &kp PSCRN
+                   &none    &none    &none    &none    &none    &none    &trans   &trans           &trans   &none    &none    &none    &none    &none    &none    &kp PSCRN
                 //├────────┼────────┼────────┼────────┼────┬───┴────┬───┼────────┼────────┤       ├────────┼────────┼───┬────┴───┬────┼────────┼────────┼────────┼────────┤
-                  &none    &none    &none    &none         &none        &trans    &trans          &trans   &trans       &none         &none    &none    &none    &none
+                   &none    &none    &none    &none         &none        &trans    &trans          &trans   &trans       &none         &none    &none    &none    &none
                 // &none   &none    &none    &none         KC_BTN1      KC_BTN2  &trans           &trans   &trans       &none         &none    &none    &none    &none
                 //└────────┴────────┴────────┴────────┘    └────────┘   └────────┴────────┘       └────────┴────────┘   └────────┘    └────────┴────────┴────────┴────────┘
             >;
