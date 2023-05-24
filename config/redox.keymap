@@ -36,7 +36,7 @@
               //├────────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┐       ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┤
                 &kp LSHFT &kp Z    &kp X    &kp C    &kp V    &kp B    &lt 3 PG_UP &kp PG_DN     &kp HOME &lt 3 END &kp N   &kp M    &kp COMMA &kp DOT &kp FSLH &kp RSHFT
               //├────────┼────────┼────────┼────────┼────┬───┴────┬───┼────────┼────────┤       ├────────┼────────┼───┬────┴───┬────┼────────┼────────┼────────┼────────┤
-                 &kp LGUI &kp STAR &kp BSLH &kp LALT      &kp LCTRL    &kp BSPC &kp DEL          &kp RET  &kp SPACE    &kp RALT      &kp LEFT &kp DOWN &kp UP   &kp RIGHT
+                 &kp LGUI &kp STAR &kp BSLH &kp LALT      &kp LCTRL    &kp BSPC &kp DEL          &kp RET  &kp SPACE    &kp LALT      &kp LEFT &kp DOWN &kp UP   &kp RIGHT
               //└────────┴────────┴────────┴────────┘    └────────┘   └────────┴────────┘       └────────┴────────┘   └────────┘    └────────┴────────┴────────┴────────┘
               
             >;
