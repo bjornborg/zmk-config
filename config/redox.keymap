@@ -34,7 +34,7 @@
               //├────────┼────────┼────────┼────────┼────────┼────────┼────────┤                         ├────────┼────────┼────────┼────────┼────────┼────────┼────────┤
                  &kp ESC  &kp A    &kp S    &kp D    &kp F    &kp G    &kp LBKT                           &kp RBKT &kp H    &kp J    &kp K    &kp L    &kp SCLN &kp QUOT
               //├────────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┐       ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┤
-                &kp LSHFT &kp Z    &kp X    &kp C    &kp V    &kp B    &lt 1 PG_UP &kp PG_DN     &kp HOME &lt 1 END &kp N   &kp M    &kp COMMA &kp DOT &kp FSLH &kp RSHFT
+                &kp LSHFT &kp Z    &kp X    &kp C    &kp V    &kp B    &lt 3 PG_UP &kp PG_DN     &kp HOME &lt 3 END &kp N   &kp M    &kp COMMA &kp DOT &kp FSLH &kp RSHFT
               //├────────┼────────┼────────┼────────┼────┬───┴────┬───┼────────┼────────┤       ├────────┼────────┼───┬────┴───┬────┼────────┼────────┼────────┼────────┤
                  &kp LGUI &kp STAR &kp BSLH &kp LALT      &kp LCTRL    &kp BSPC &kp DEL          &kp RET  &kp SPACE    &kp RCTRL     &kp LEFT &kp DOWN &kp UP   &kp RIGHT
               //└────────┴────────┴────────┴────────┘    └────────┘   └────────┴────────┘       └────────┴────────┘   └────────┘    └────────┴────────┴────────┴────────┘
@@ -116,15 +116,15 @@
           //  &trans  &trans     &trans       &trans              &trans           &trans &trans &trans &trans          &trans           &trans       &trans       &trans        &trans
           bindings = <
               //┌────────┬────────┬────────┬────────┬────────┬────────┐                                           ┌────────┬────────┬────────┬────────┬────────┬────────┐
-                 &none    &kp F1   &kp F2   &kp F3   &kp F4   &kp F5                                               &kp F6   &kp F7   &kp F8   &kp F9   &kp F10  &none
+                 &bt BT_PRV   &kp F1   &kp F2   &kp F3   &kp F4   &kp F5                                               &kp F6   &kp F7   &kp F8   &kp F9   &kp F10  &none
               //├────────┼────────┼────────┼────────┼────────┼────────┼────────┐                         ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┤
-                 &none    &bootloader &none &none    &none    &none    &none                              &none    &none    &none    &none    &none    &none    &none
+                 &bt BT_NXT &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &none        &none    &none    &none    &none    &none    &none    &none
               //├────────┼────────┼────────┼────────┼────────┼────────┼────────┤                         ├────────┼────────┼────────┼────────┼────────┼────────┼────────┤
-                 &none    &none    &none    &none    &none    &none    &none                              &none    &none    &none    &none    &none    &none    &none
+                 &bt BT_CLR &none    &none    &none    &none    &none    &none                              &none    &none    &none    &none    &none    &none    &none
               //├────────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┐       ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┤
                  &none    &none    &none    &none    &none    &none    &trans   &none            &none    &trans   &none    &none    &none    &none    &none    &none
               //├────────┼────────┼────────┼────────┼────┬───┴────┬───┼────────┼────────┤       ├────────┼────────┼───┬────┴───┬────┼────────┼────────┼────────┼────────┤
-                 &none    &none    &none    &none         &none        &none    &none            &none    &none        &none         &none    &none    &none    &none
+                 &bootloader &none &none    &none         &none        &none    &none            &none    &none        &none         &none    &none    &none    &bootloader
               //└────────┴────────┴────────┴────────┘    └────────┘   └────────┴────────┘       └────────┴────────┘   └────────┘    └────────┴────────┴────────┴────────┘
             >;
         };
