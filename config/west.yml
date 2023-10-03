@@ -6,8 +6,10 @@ manifest:
       url-base: https://github.com/Katona
   projects:
     - name: zmk
-      remote: katona
-      revision: split_battery_service
+      # remote: katona
+      # revision: split_battery_service
+      remote: zmkfirmware
+      revision: main
       import: app/west.yml
   self:
     path: config
