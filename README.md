@@ -1,3 +1,3 @@
 # zmk-config
 
-My zmq config layout
+My zmq config layout for redox.
