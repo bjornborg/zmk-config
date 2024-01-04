@@ -2,8 +2,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: katona
-      url-base: https://github.com/Katona
+    # - name: katona
+    #   url-base: https://github.com/Katona
   projects:
     - name: zmk
       # remote: katona
