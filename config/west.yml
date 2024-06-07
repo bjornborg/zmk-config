@@ -2,14 +2,14 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    # - name: katona
-    #   url-base: https://github.com/Katona
+    - name: petejohanson
+      url-base: https://github.com/petejohanson
   projects:
-    - name: zmk
+    - name: petejohanson
       # remote: katona
       # revision: split_battery_service
-      remote: zmkfirmware
-      revision: main
+      remote: petejohanson
+      revision: pointers-move-scroll
       import: app/west.yml
   self:
     path: config
