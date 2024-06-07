@@ -5,7 +5,7 @@ manifest:
     - name: petejohanson
       url-base: https://github.com/petejohanson
   projects:
-    - name: petejohanson
+    - name: zmk
       # remote: katona
       # revision: split_battery_service
       remote: petejohanson
