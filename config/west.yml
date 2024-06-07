@@ -9,7 +9,7 @@ manifest:
       # remote: katona
       # revision: split_battery_service
       remote: petejohanson
-      revision: pointers-move-scroll
+      revision: feat/pointers-move-scroll
       import: app/west.yml
   self:
     path: config
