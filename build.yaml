@@ -14,26 +14,26 @@
 #
 include:
 # redox
-  - board: nrfmicro_13
+  - board: nrfmicro/nrf52840
     shield: redox_left
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
     artifact-name: redox_left
-  - board: nrfmicro_13
+  - board: nrfmicro/nrf52840
     shield: redox_right
     artifact-name: redox_right
-  - board: nrfmicro_13
+  - board: nrfmicro/nrf52840
     shield: settings_reset
     artifact-name: settings_reset
 
 # sofle
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: sofle_left nice_view_adapter nice_view_gem
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
     artifact-name: sofle_left
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: sofle_right nice_view_adapter nice_view_gem
     artifact-name: sofle_right
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: settings_reset
