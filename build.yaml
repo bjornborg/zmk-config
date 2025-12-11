@@ -24,7 +24,7 @@ include:
     artifact-name: redox_right
   - board: nrfmicro/nrf52840
     shield: settings_reset
-    artifact-name: settings_reset
+    artifact-name: redox_settings_reset
 
 # sofle
   - board: nice_nano
@@ -36,4 +36,4 @@ include:
     shield: sofle_right nice_view_adapter nice_view_gem
     artifact-name: sofle_right
   - board: nice_nano
-    shield: settings_reset
+    shield: sofle_settings_reset
