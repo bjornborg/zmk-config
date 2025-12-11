@@ -12,14 +12,12 @@
 #   - board: nice_nano_v2
 #     shield: reviung41
 #
----
 include:
-  - board: nrfmicro_13
-    shield: redox_left
-    artifact-name: redox_left
-  - board: nrfmicro_13
-    shield: redox_right
-    artifact-name: redox_right
-  - board: nrfmicro_13
+  - board: nice_nano_v2
+    shield: sofle_left nice_view_adapter nice_view_gem
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+  - board: nice_nano_v2
+    shield: sofle_right nice_view_adapter nice_view_gem
+  - board: nice_nano_v2
     shield: settings_reset
-    artifact-name: settings_reset
